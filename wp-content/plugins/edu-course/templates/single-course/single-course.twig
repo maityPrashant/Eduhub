@@ -1,0 +1,25 @@
+<div class="mdl-grid">
+    {#left-side-section#}
+    <div class="mdl-cell mdl-cell--8-col">
+        <h4 style="padding-left: 10px">{{ course_data.title }}</h4>
+        {#-- player div container --#}
+        <div class="mdl-cell mdl-cell--12-col">
+            {% include 'view-holders/player_div_holder.twig' %}
+        </div>
+        {#-- end of player div container --#}
+
+        {#-- info div container --#}
+        <div class="mdl-cell mdl-cell--12-col">
+            {% include 'view-holders/info_holder.twig' %}
+        </div>
+        {#-- end of info div container --#}
+    </div>
+    {#-- end of left-side-section --#}
+
+    {#right-side-section#}
+    <div class="mdl-cell mdl-cell--4-col">
+        <h4 style="padding-left: 10px">Topics</h4>
+        {% include 'view-holders/content_list_holder.twig' %}
+    </div>
+    {#-- end of right-side-section --#}
+</div>

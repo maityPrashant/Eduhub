@@ -1,0 +1,35 @@
+/*
+ Theme Name:   EduHub Theme
+ Theme URI:    http://www.example.com
+ Description:  EduHub: A Twenty Sixteen child theme
+ Author:       Prashant Maity
+ Author URI:   http://www.example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+*/
+
+@import url("../twentysixteen/style.css");
+
+.site-title {
+padding: 30px 0 30px;
+}
+
+.site-header .home-link {
+
+min-height: 0px;
+
+}
+
+.navbar {
+background-color: #e8e5ce;
+}
+
+.widget { 
+background-color: #e8e5ce;
+}
+.site-footer {
+background-color: #d8cdc1;
+} 
+.site-footer .sidebar-container { 
+background-color:#533F2A
+}
