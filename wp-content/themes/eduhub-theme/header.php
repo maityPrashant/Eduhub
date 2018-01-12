@@ -17,8 +17,7 @@ $current_url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
 if ( ! is_user_logged_in() ) {
   $login_url = wp_login_url( $current_url );
   // Send to login url and then redirect to home page
-  wp_redirect( $login_url );
-  exit;
+auth_redirect();  exit;
 }
 $user = wp_get_current_user();
 
